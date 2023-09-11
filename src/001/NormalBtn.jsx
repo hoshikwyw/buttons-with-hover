@@ -1,0 +1,13 @@
+import React from "react";
+
+const NormalBtn = () => {
+  return (
+    <div>
+    <button className=" text-[#B29079] border border-[#C1B6A4] px-5 py-1 rounded hover:bg-[#C1B6A4] text-lg font-semibold hover:text-white">
+      Click me !
+    </button>
+    </div>
+  );
+};
+
+export default NormalBtn;
